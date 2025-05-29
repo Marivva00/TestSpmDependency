@@ -14,7 +14,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "PinLayout",
+            name: "PinLayot",
             url: "https://github.com/Marivva00/TestSpmDependency/releases/download/9.3.1/PinLayout.xcframework.zip",
             checksum: "18fe814345be8e00162f5140b626e42c7aceb911061e6265c843820ba4202e2d"
         )
