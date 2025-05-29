@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "GoogleMaps",
+    name: "PinLayout",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "GoogleMaps",
-            targets: ["GoogleMaps"]
+            name: "PinLayout",
+            targets: ["PinLayout"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "GoogleMaps",
-            url: "https://github.com/Marivva00/TestSpmDependency/releases/download/9.3.0/GoogleMaps_3p.xcframework.zip",
-            checksum: "13fbc15bdadd25b43d3aa14d7280456f64157f6b44392188dab5623998bdd8d6"
+            name: "PinLayout",
+            url: "https://github.com/Marivva00/TestSpmDependency/releases/download/9.3.1/PinLayout.xcframework.zip",
+            checksum: "18fe814345be8e00162f5140b626e42c7aceb911061e6265c843820ba4202e2d"
         )
     ]
 )
