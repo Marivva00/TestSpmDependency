@@ -2,21 +2,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "PinLayout",
+    name: "VKID",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "PinLayout",
-            targets: ["PinLayout"]
+            name: "VKID",
+            targets: ["VKID", "VKIDCore"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "PinLayout",
-            url: "https://github.com/Marivva00/TestSpmDependency/releases/download/9.3.2/PinLayout.xcframework.zip",
-            checksum: "18fe814345be8e00162f5140b626e42c7aceb911061e6265c843820ba4202e2d"
+            name: "VKID",
+            url: "https://github.com/Marivva00/TestSpmDependency/releases/download/9.3.3/VKID.xcframework.zip",
+            checksum: "a6909906656879cef20ce20556b909c84b22bbf7efacf3cd5e86494fd4db1389"
+        ),
+        .binaryTarget(
+            name: "VKIDCore",
+            url: "https://github.com/Marivva00/TestSpmDependency/releases/download/9.3.3/VKIDCore.xcframework.zip",
+            checksum: "5e38bcc279ead41b4adad40c0a78b6ef0f293b0a609fab1b896f90b666fb8beb"
         )
     ]
 )
